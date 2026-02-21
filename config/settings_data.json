@@ -1,19 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "type_body_font": "inter_n4",
-    "type_subheading_font": "inter_n5",
-    "type_heading_font": "inter_n7",
-    "type_accent_font": "inter_n7",
-    "type_size_paragraph": "14",
-    "type_line_height_paragraph": "body-loose",
+    "logo_height": 36,
+    "logo_height_mobile": 28,
+    "type_body_font": "nunito_sans_n4",
+    "type_subheading_font": "libre_baskerville_n4",
+    "type_heading_font": "libre_baskerville_n7",
+    "type_accent_font": "libre_baskerville_n7",
+    "type_size_paragraph": "18",
+    "type_line_height_paragraph": "body-normal",
     "type_font_h1": "heading",
     "type_size_h1": "56",
     "type_line_height_h1": "display-tight",
     "type_letter_spacing_h1": "heading-normal",
     "type_case_h1": "none",
     "type_font_h2": "heading",
-    "type_size_h2": "48",
-    "type_line_height_h2": "display-tight",
+    "type_size_h2": "40",
+    "type_line_height_h2": "display-normal",
     "type_letter_spacing_h2": "heading-normal",
     "type_case_h2": "none",
     "type_font_h3": "heading",
@@ -65,6 +76,7 @@
     "variant_button_border_width": 1,
     "variant_button_radius": 14,
     "variant_button_width": "equal-width-buttons",
+    "content_for_index": [],
     "color_schemes": {
       "scheme-1": {
         "settings": {
@@ -112,7 +124,7 @@
           "foreground": "#000000cf",
           "primary": "#000000cf",
           "primary_hover": "#ffffff",
-          "border": "#DFDFDF",
+          "border": "#dfdfdf",
           "shadow": "#000000",
           "primary_button_background": "#000000",
           "primary_button_text": "#ffffff",
@@ -339,9 +351,7 @@
           "selected_variant_hover_border_color": "#1a1a1a"
         }
       }
-    },
-    "logo_height": 36,
-    "logo_height_mobile": 28
+    }
   },
   "presets": {
     "Horizon": {
