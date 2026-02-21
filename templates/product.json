@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -16,6 +25,7 @@
             "slideshow_mobile_controls_style": "dots",
             "thumbnail_position": "right",
             "thumbnail_width": 44,
+            "thumbnail_radius": 0,
             "aspect_ratio": "adapt",
             "constrain_to_viewport": true,
             "media_fit": "contain",
@@ -62,7 +72,6 @@
               "type": "group",
               "name": "Header",
               "settings": {
-                "open_in_new_tab": false,
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -90,6 +99,9 @@
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
@@ -100,7 +112,7 @@
                   "type": "text",
                   "name": "Product title",
                   "settings": {
-                    "text": "<h1>{{ closest.product.title }}<\/h1>",
+                    "text": "<h1>{{ closest.product.title }}</h1>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -180,6 +192,7 @@
               "settings": {
                 "stacking": true,
                 "show_pickup_availability": false,
+                "gift_card_form": true,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
@@ -251,9 +264,56 @@
         "equal_columns": false,
         "limit_details_width": false,
         "gap": 48,
+        "enable_sticky_add_to_cart": true,
         "color_scheme": "",
         "padding-block-start": 0,
         "padding-block-end": 0
+      }
+    },
+    "bundle_banner_3BPdh6": {
+      "type": "bundle-banner",
+      "blocks": {
+        "product_image_LUEy49": {
+          "type": "product_image",
+          "settings": {
+            "product_image": "shopify://shop_images/ChatGPT_Image_Jan_22_2026_at_10_48_22_AM_1.png",
+            "product_image_mobile": "shopify://shop_images/ChatGPT_Image_Jan_22_2026_at_10_48_22_AM_1_1.png",
+            "product_image_alt": ""
+          }
+        },
+        "heading_eLVHFG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smart stack, smarter price - shop curated bundles and",
+            "heading_highlight": "save 30%."
+          }
+        },
+        "description_n6jx4w": {
+          "type": "description",
+          "settings": {
+            "description": "Clinically informed formulas that support energy, balance, and everyday wellness."
+          }
+        },
+        "cta_zU76AT": {
+          "type": "cta",
+          "settings": {
+            "cta_label": "",
+            "cta_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_image_LUEy49",
+        "heading_eLVHFG",
+        "description_n6jx4w",
+        "cta_zU76AT"
+      ],
+      "name": "Bundle banner",
+      "settings": {
+        "background_image": "shopify://shop_images/Background_2.png",
+        "background_image_mobile": "shopify://shop_images/Background_4.png",
+        "text_color": "#ffffff",
+        "highlight_color": "#5eb8d0"
       }
     },
     "product_recommendations_qggXJq": {
@@ -263,7 +323,7 @@
           "type": "text",
           "name": "t:names.header",
           "settings": {
-            "text": "<h3>You may also like <\/h3>",
+            "text": "<h3>You may also like </h3>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -400,6 +460,7 @@
   },
   "order": [
     "main",
+    "bundle_banner_3BPdh6",
     "product_recommendations_qggXJq"
   ]
 }
